@@ -1,0 +1,75 @@
+.tasks-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vh;
+}
+
+.tasks-container input {
+  border-radius: 8px;
+  width: 10vw;
+}
+
+.tasks {
+  background: whitesmoke;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  transition: all 0.3s;
+  width: 40vw;
+}
+
+.tasks:hover {
+  transform: scale(1.05);
+}
+
+.tasks li {
+  list-style: none;
+  font-size: 2vw;
+}
+
+.task-buttons {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+}
+
+.task-tasks {
+  margin-left: 1vw;
+  font-size: 1.5vw;
+}
+
+.task-buttons button {
+  cursor: pointer;
+
+  border-radius: 8px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  transition: all 1s;
+  width: 5vw;
+}
+
+.task-in-progress {
+  background: orange;
+  color: black;
+  padding: 10px;
+  height: 5vh;
+}
+
+.task-completed {
+  background: green;
+  color: white;
+  padding: 10px;
+  height: 5vh;
+}
+
+.button2 {
+  color: red;
+  background: transparent;
+  font-size: 3vw;
+}
